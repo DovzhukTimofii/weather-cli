@@ -1,1 +1,5 @@
-to start the project white - "node weather"
+Download cli weather - "npm i weather-cli-of-dovzhuk-timofi"
+
+To launch the project, write - "node weather"
+
+To get help write - "node weather -h"
