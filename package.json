@@ -1,9 +1,12 @@
 {
   "name": "weather-cli-of-dovzhuk-timofi",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "CLI for getting weather",
-  "main": "index.js",
-  "bin": "./index.js",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,10 +19,16 @@
   "homepage": "https://dovzhuktimofii.github.io/portfolio/",
   "repository": {
     "type": "git",
-    "url": "https://dovzhuktimofii.github.io/portfolio/"
+    "url": "https://github.com/DovzhukTimofii/weather-cli"
   },
   "bugs": {
     "url": "https://dovzhuktimofii.github.io/portfolio/",
     "email": "dovzhuktima@gmail.com"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "chalk": "^5.3.0",
+    "dedent-js": "^1.0.1",
+    "weather-cli-of-dovzhuk-timofi": "^1.0.2"
   }
 }
